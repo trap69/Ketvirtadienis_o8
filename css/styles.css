@@ -1,0 +1,75 @@
+html, body {
+	height: 100%;
+	padding: 0;
+	font-family: Arial, Hel	vetica, sans-serif;
+	text-align: center;
+	color: white;
+}
+.container /*container*/ {
+	height: 100%;
+	max-width: 500px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+header { 
+	background-color: blue;
+	margin-bottom: 5px;
+}
+
+main /*container*/ { 
+	display: flex;
+	flex-direction: row;
+	flex: 4;
+	margin-bottom: 5px;
+}
+.aside_column /*container*/ {
+	display: flex;
+	flex: 4;
+	flex-direction: column;
+}
+.hero {
+	flex: 4;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	background-color: pink;
+}
+.sidebar {
+	flex: 6;
+	background-color: green;
+	margin-right: 5px;
+}
+.main_column /*container*/ {
+	display: flex;
+	flex: 6;
+	flex-direction: column;
+}
+.main_content {
+	flex: 6;
+	margin-bottom: 5px;
+	background-color: yellow;
+}
+.extra_content {
+	flex: 4;
+	background-color: gray;
+}
+.related_to_main /*container*/ {
+	margin-bottom: 5px;
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+	flex-flow: row wrap;
+}
+.related_images {
+	margin-right: 5px;
+	display: flex;
+	flex: 3;
+	background-color: green;
+}
+.related_posts {
+	flex: 1.5;
+	background-color: pink;
+}
+.footer {
+	background-color: orange;
+}
